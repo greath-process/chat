@@ -1,0 +1,21 @@
+
+@media (min-width: 64em){
+  .chat__messages {
+    flex: 1;
+  }
+}
+
+.chat__message-content {
+  white-space: pre-line;
+}
+
+.chat__message a {
+  font-size:10pt;
+  display: flex;
+  color: #657b70;
+}
+
+.chat__message.chat__message-unswer a {
+  color:white;
+}
+
